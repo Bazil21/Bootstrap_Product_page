@@ -1,0 +1,77 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+}
+  
+  input {
+    all: unset;
+    font: 25px;
+    width: 80%;
+    padding: 6px 10px;
+  }
+  
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.8; 
+  }
+#searchbtn {
+    all: unset;
+    padding: 2px;
+    cursor: pointer;
+    float: right;
+  }
+
+
+.card {
+    padding: 2rem;
+    background-color: #4878e7;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+@media(max-width:768px) {
+    .card {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    li{
+        padding: 0;
+    }
+}
+
+.row {
+    margin: 0;
+}
+
+.path {
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.path a {
+    color: #ffffff;
+}
+
+.list-group-item{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+a:hover{
+    text-decoration: none;
+}
+.list-group-item:hover{
+    color: rgb(241, 245, 0);
+   
+}
+#basic-text1{
+    background-color: yellow;
+}
+#demo{
+    margin-top: 100px;
+}
